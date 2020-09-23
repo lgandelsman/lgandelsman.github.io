@@ -1,0 +1,98 @@
+body, html {
+    background: url(field3.jpg) no-repeat center fixed;
+    height: 100%;
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.header {
+    display: flex;
+    height: 75px;
+    color: #FF6506;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.2em;
+    font-weight: 350;
+    padding: .5em 1em;
+    background-color: #FF6506;
+    border: 2px solid;
+    border-color: #FF6506;
+    border-radius: 300px;
+}
+
+.btn:hover {
+    color: #FF6506;
+    background-color: white;
+    border-color: #FF6506;
+    transition: .5s;
+}
+
+/* .icons {
+    justify-content: center;
+    text-align: center;
+    border: 5px black solid;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+} */
+
+section {
+    height: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    border: 5px black;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 1.5em;
+    color: white;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    /* border: 1px solid white;
+    border-radius: 25%; */
+    transition: .5s;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited 
+{
+    color: white;
+}
+
+.fa {
+    padding: 10px 10px;
+}
+
+.fa:hover {
+    color: #FF6506;
+}
+
+.buffer_social {
+    padding-top: 12em;
+}
